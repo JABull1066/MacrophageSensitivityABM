@@ -1,5 +1,5 @@
 # MacrophageSensitivityABM
-Code associated with "Macrophage sensitivity to microenvironmental cues influences spatial heterogeneity of tumours" (Bull and Byrne, 2022)
+Code associated with "Quantification of spatial and phenotypic heterogeneity in an agent-based model of tumour-macrophage interactions" (Bull and Byrne, 2022)
 
 
 Running this code requires installation of the open source Chaste (Cancer, Heart and Soft Tissue Environment) software, available at https://www.chaste.cs.ox.ac.uk/. This repository contains additional code required to run the main simulation executable, Exe_2022_RunSimulation.cpp. This executable can be called with the following command line arguments, which alter the parameters of the simulation:
