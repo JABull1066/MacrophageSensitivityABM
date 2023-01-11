@@ -2,7 +2,7 @@
 Code associated with "Quantification of spatial and phenotypic heterogeneity in an agent-based model of tumour-macrophage interactions" (Bull and Byrne, 2022) https://doi.org/10.1101/2022.05.26.493564 
 
 # Agent-based model code
-Running this code requires installation of the open source Chaste (Cancer, Heart and Soft Tissue Environment) software, available at https://www.chaste.cs.ox.ac.uk/. This repository contains additional code required to run the main simulation executable, Exe_2022_RunSimulation.cpp. This executable can be called with the following command line arguments, which alter the parameters of the simulation:
+Running this code requires installation of the open source Chaste (Cancer, Heart and Soft Tissue Environment) software, available at https://www.chaste.cs.ox.ac.uk/. The ./src/ repository contains additional code required to run the main simulation executable, Exe_2022_RunSimulation.cpp. This executable can be called with the following command line arguments, which alter the parameters of the simulation:
 
 
 - "ID" - ID string for the simulation
