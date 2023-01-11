@@ -1,7 +1,7 @@
 # MacrophageSensitivityABM
 Code associated with "Quantification of spatial and phenotypic heterogeneity in an agent-based model of tumour-macrophage interactions" (Bull and Byrne, 2022) https://doi.org/10.1101/2022.05.26.493564 
 
-
+# Agent-based model code
 Running this code requires installation of the open source Chaste (Cancer, Heart and Soft Tissue Environment) software, available at https://www.chaste.cs.ox.ac.uk/. This repository contains additional code required to run the main simulation executable, Exe_2022_RunSimulation.cpp. This executable can be called with the following command line arguments, which alter the parameters of the simulation:
 
 
@@ -26,3 +26,6 @@ We use Zegami (www.zegami.com) as a means of easily visualising simulation outpu
   - All Data: https://zegami.com/collections/public-6290ef320533c7ce968e02f1
   - Simulation endpoints: https://zegami.com/collections/public-6290ef320533c7ce968e02f1?list.analysisType.any=Cell%C2%A0locations&fc=analysisType&pan=SNAPSHOT_PANEL&sort=fileName&view=grid
   - Spatial statistics from a particular simulation endpoint: https://zegami.com/collections/public-6290ef320533c7ce968e02f1?list.id.any=32&fc=id&pan=SNAPSHOT_PANEL&sort=fileName&view=grid
+
+# Examples of the wPCF
+Jupyter notebooks containing examples of how to calculate the wPCF can be found in the wPCF Examples folder. These include the examples used in Figure 3 (demonstrating the wPCF on synthetic data), and in the Supplementary Information sections S4 (varying the weighting function used in calculating the wPCF) and S5 (calculating the wPCF for two continuous marks, instead of from a discrete to a continuous mark).
