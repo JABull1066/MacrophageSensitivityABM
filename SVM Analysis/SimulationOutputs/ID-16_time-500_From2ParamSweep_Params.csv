@@ -1,0 +1,2 @@
+,simulation_id,ID,averageCellCycleDuration_tumour,averageCellCycleDuration_stroma,chi_macrophageToCSF,chi_macrophageToCXCL12,chi_tumourCellToEGF,macrophagePhenotypeIncrementPerHour,distanceToBloodVessel,numberOfBloodVessels,halfMaximalExtravasationCsf1Conc,maximumProbOfExtravasationPerHour,tgfThresholdForPhenotypeSwitch,iterationNumber,Timepoint
+15,AWS_ParameterSweep_24072021/16,16,24,32,0.5,3,3,0.01,17,35,0.1,0.075,0.5,5,500
