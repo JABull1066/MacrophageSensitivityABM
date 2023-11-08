@@ -290,6 +290,8 @@ void SetupAndRunSimulation(std::string id_string, double avgCellCycleDurationStr
 			p_cell->GetCellData()->SetItem("oxygen", 1);
 			p_cell->GetCellData()->SetItem("csf1", 0);
 			p_cell->GetCellData()->SetItem("egf", 0);
+			p_cell->GetCellData()->SetItem("egf_grad_x", 0);
+			p_cell->GetCellData()->SetItem("egf_grad_y", 0);
 			p_cell->GetCellData()->SetItem("cxcl12", 0);
 			p_cell->GetCellData()->SetItem("tgf", 0);
 			p_cell->GetCellData()->SetItem("phenotype", -2);
@@ -319,6 +321,8 @@ void SetupAndRunSimulation(std::string id_string, double avgCellCycleDurationStr
 			p_cell->GetCellData()->SetItem("oxygen", 1);
 			p_cell->GetCellData()->SetItem("csf1", 0);
 			p_cell->GetCellData()->SetItem("egf", 0);
+			p_cell->GetCellData()->SetItem("egf_grad_x", 0);
+			p_cell->GetCellData()->SetItem("egf_grad_y", 0);
 			p_cell->GetCellData()->SetItem("cxcl12", 0);
 			p_cell->GetCellData()->SetItem("tgf", 0);
 			p_cell->GetCellData()->SetItem("phenotype", -1);
