@@ -1,5 +1,5 @@
 # MacrophageSensitivityABM
-Code associated with "Quantification of spatial and phenotypic heterogeneity in an agent-based model of tumour-macrophage interactions" (Bull and Byrne, 2022) https://doi.org/10.1101/2022.05.26.493564 
+Code associated with "Quantification of spatial and phenotypic heterogeneity in an agent-based model of tumour-macrophage interactions" (Bull and Byrne, 2023, https://doi.org/10.1371/journal.pcbi.1010994)
 
 # Agent-based model code
 Running this code requires installation of the open source Chaste (Cancer, Heart and Soft Tissue Environment) software, available at https://www.chaste.cs.ox.ac.uk/. The ./src/ repository contains additional code required to run the main simulation executable, Exe_2022_RunSimulation.cpp. This executable can be called with the following command line arguments, which alter the parameters of the simulation:
@@ -19,6 +19,11 @@ Running this code requires installation of the open source Chaste (Cancer, Heart
 - "TGF_TFPS" - tgfThresholdForPhenotypeSwitch: TGF threshold above which macrophage will begin to polarise ($g_{crit}$)
 - "IT" - Iteration Number
 
+
+# Examples of the wPCF
+Jupyter notebooks containing examples of how to calculate the wPCF can be found in the wPCF Examples folder. These include the examples used in Figure 3 (demonstrating the wPCF on synthetic data), and in the Supplementary Information sections S4 (varying the weighting function used in calculating the wPCF) and S5 (calculating the wPCF for two continuous marks, instead of from a discrete to a continuous mark).
+
+
 # Simulation outputs visualised in Zegami
 UPDATE NOVEMBER 2023 - Since Zegami no longer exists, the interactive data exploration for simulation endpoints described in this section is no longer available. The following is left here for reference only.
 
@@ -31,6 +36,3 @@ We use Zegami (www.zegami.com) as a means of easily visualising simulation outpu
   - Spatial statistics from a particular simulation endpoint: https://zegami.com/collections/public-6290ef320533c7ce968e02f1?list.id.any=32&fc=id&pan=SNAPSHOT_PANEL&sort=fileName&view=grid
  
 </s>
-
-# Examples of the wPCF
-Jupyter notebooks containing examples of how to calculate the wPCF can be found in the wPCF Examples folder. These include the examples used in Figure 3 (demonstrating the wPCF on synthetic data), and in the Supplementary Information sections S4 (varying the weighting function used in calculating the wPCF) and S5 (calculating the wPCF for two continuous marks, instead of from a discrete to a continuous mark).
